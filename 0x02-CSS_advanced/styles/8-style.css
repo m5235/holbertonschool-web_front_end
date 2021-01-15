@@ -7,7 +7,7 @@ body {
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
-	line-weight-base: 1.0;
+	--line-weight-base: 1.0;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
@@ -33,8 +33,8 @@ a {
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #cfafaf;
 	--text-color: var(--color-black);
-	--font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif, Open sans;
-	--font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif, Releway;
+	--font-family-base: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-family-title: "Releway" "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-size-small: 1.2rem;
 	--font-size-medium: 1.6rem;
 	--font-size-large: 1.8rem;
@@ -42,7 +42,7 @@ a {
 	--font-size-xx-large: 4.8rem;
 	--font-weight-regular:400;
 	--font-weight-bold:700;
-	--line-height-small:1.2;
-	--line-height-base:1.6;
-	--line-height-big:1.6;
+	--line-height-small: 1.2;
+	--line-height-base: 1.5;
+	--line-height-big: 1.8;
 }
