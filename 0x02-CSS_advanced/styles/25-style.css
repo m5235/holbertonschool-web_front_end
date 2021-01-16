@@ -149,7 +149,7 @@ a:active
 	--button-hover-background: var(--color-primary);
 
 }
-.buttons {
+.button {
 	--display: var(--button-display);
 	padding: var(--button-border);
 	border: var(--button-border);
