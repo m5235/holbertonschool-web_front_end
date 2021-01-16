@@ -64,13 +64,13 @@ a:active
 {
 	background: var(--color-light-grey);
 }
-a .card-services{
+.card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
-	color: var(--color-white);
 }
-a:hover .card-services{
+.card-services a:hover {
+	color: var(--color-white);
 	background: var(--color-primary);
 	text-decoration: none;
 }
@@ -80,7 +80,7 @@ a:hover .card-services{
 .card-category{
 	color: var(--color-primary);
 }
-.card-title .card-services{
+.card-services .card-title{
 	margin: 0;
 }
 .section{
