@@ -115,14 +115,13 @@ a:active
 	color:var(--color-primary);
 }
 .section-hero{
-	background-size: 300px 100px;
 	width: 90rem;
 }
-.section-title .section-hero{
+.section-hero .section-title {
 	margin-bottom: 5rem;
 }
 .section-hero .section-inner{
-	padding: 10rem 40rem 2rem;
+	padding: 10rem 40rem 2rem 0;
 }
 :root{
 	--color-primary: #d73953;
