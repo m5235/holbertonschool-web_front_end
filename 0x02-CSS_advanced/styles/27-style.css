@@ -115,7 +115,7 @@ a:active
 	color:var(--color-primary);
 }
 .section-hero{
-	margin-bottom: 90rem;
+	margin-bottom: 90rem auto;
 }
 .section-hero .section-title {
 	margin-bottom: 5rem;
