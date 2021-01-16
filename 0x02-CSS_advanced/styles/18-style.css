@@ -25,17 +25,14 @@ html{
 }
 .nav .nav-link{
 	display: block;
-	padding: 0 1.5em 0 1.5em;
+	padding: 0.5rem 1rem;
 }
-.nav .nav-item-link-hover{
-	--nav-item-font-family: var(--font-family-title);
-	--nav-item-font-weight: var(--font-weight-bold);
-	--nav-item-font-size:var(--font-size-medium);
-	--nav-item-letter-spacing: 4%;
-	--nav-item-display: inline-block;
-	--nav-item-margin: 0 3em 0 3em;
-	--nav-item-link-hover: var(--color-primary);
+.nav .nav-link:hover{
+	color: var(--nav-item-link-hover);
+
 }
+
+
 
 body {
 	color:var(--text-color);
@@ -114,6 +111,14 @@ a:active
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
+
+	--nav-item-font-family: var(--font-family-title);
+	--nav-item-font-weight: var(--font-weight-bold);
+	--nav-item-font-size:var(--font-size-medium);
+	--nav-item-letter-spacing: 4%;
+	--nav-item-display: inline-block;
+	--nav-item-margin: 0 3em 0 3em;
+	--nav-item-link-hover: var(--color-primary);
 }
 .section-title{
 	font-family: var(--font-family-title);
