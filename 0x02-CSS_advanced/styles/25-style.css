@@ -150,7 +150,7 @@ a:active
 
 }
 .button {
-	--display: var(--button-display);
+	display: var(--button-display);
 	padding: var(--button-border);
 	border: var(--button-border);
 	font-size: var(--button-font-size);
