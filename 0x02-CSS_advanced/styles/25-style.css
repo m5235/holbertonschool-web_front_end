@@ -151,7 +151,7 @@ a:active
 }
 .button {
 	display: var(--button-display);
-	padding: var(--button-border);
+	padding: var(--button-padding);
 	border: var(--button-border);
 	font-size: var(--button-font-size);
 	color: var(--button-color);
@@ -193,7 +193,7 @@ a:active
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background: var(--color-black);
-	--button-color:color var(--color-white);
+	--button-color: var(--color-white);
 }
 [class^="col-"]{
 	float: left;
