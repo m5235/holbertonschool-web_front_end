@@ -48,10 +48,7 @@ html{
 	background-color: var(--color-primary);
 	width: 100%;
 }
-.nav .nav-link::before{
-	transition: var(--transition-duration);
-	transition: var(--transition-cubic-bezier);
-}
+
 ul.row{
 	margin: 0;
 	padding: 0;
