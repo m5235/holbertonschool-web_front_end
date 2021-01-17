@@ -292,8 +292,8 @@ a:active
 	color:var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background: var(--button-hover-background);
-	transition: var(--transition-duration);
-	transition-property: color, "background-color";
+	transition-duration: var(--transition-duration);
+	transition-property: background-color, color;
 }
 .section-title{
 	font-family: var(--font-family-title);
