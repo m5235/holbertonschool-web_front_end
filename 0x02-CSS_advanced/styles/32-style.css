@@ -175,14 +175,12 @@ a:active
 }
 .card-work:hover .card-image{
 	transform: scale(1.2);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer{
 	transform: scale(0.95);
 }
-.card-image .card-work:hover{
-	transition: var(--transition-duration) ;
-	transition: var(--transition-cubic-bezier);
-}
+
 .card-inner .card-work{
 	transition: var(--transition-duration);
 	transition: var(--transition-cubic-bezier);
@@ -294,8 +292,7 @@ a:active
 	text-decoration: var(--button-hover-text-decoration);
 	background: var(--button-hover-background);
 	transition: var(--transition-duration);
-	color: var(--transition-properity);
-	background-color: var(--transition-properity);
+	transition-property: color, background-color;
 }
 .section-title{
 	font-family: var(--font-family-title);
