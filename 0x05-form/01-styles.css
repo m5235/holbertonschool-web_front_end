@@ -615,30 +615,7 @@
 	border: none;
 	margin-bottom: 3rem;
   }
-  
-  /* Tag list
-	  ============================= */
-  /***FORM***/
-  /*comment section 
-  =================================*/
-  .post-comments{
-	  width: 80%;
-	  margin: 10rem 0 0 auto;
-	  padding-left: 7rem;
-  }
-  .section-title {
-	  --front-variant: var(--small-caps)
-  }
 
-  /* Basic form
-	============================= */
-	
-	.form{
-		display: flex;
-		flex-direction: column;
-		padding: 1rem 0;
-		margin: 0;
-	}
   .tag-list {
 	padding: 0;
 	list-style: none;
@@ -654,4 +631,25 @@
   
   .tag-list li:last-child::after {
 	content: "";
+  }
+    /***FORM***/
+  /*comment section 
+  =================================*/
+  .post-comments {
+	width: 80%;
+	margin: 10rem 0 0 auto;
+	padding-left: 7rem;
+}
+.post-comments .section-title {
+	--front-variant: var(--small-caps)
+}
+
+/* Basic form
+  ============================= */
+  
+  .form {
+	  display: flex;
+	  flex-direction: column;
+	  padding: 1rem 0;
+	  margin: 0;
   }
