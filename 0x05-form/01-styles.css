@@ -641,7 +641,7 @@
 	padding-left: 7rem;
 }
 .post-comments .section-title {
-	--front-variant: var(--small-caps)
+	--front-variant: var(--small-caps);
 }
 
 /* Basic form
