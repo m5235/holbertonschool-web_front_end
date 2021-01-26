@@ -701,7 +701,7 @@ input[type="text"], input[type="email"],textarea {
 
 }
 
-.form-group :focus-within{
+.form-group:focus-within{
     background-color: var(--color-light-grey);
     transition: .3s;
 }
@@ -730,7 +730,7 @@ input[type="text"], input[type="email"],textarea {
     overflow: hidden;
 }
 
-.form-group :focus-within  .form-help {
+.form-group:focus-within .form-help {
     max-height: 20rem;
-    margin: .4rem 0 0;
+    margin: 0.4rem 0 0;
 }
