@@ -36,7 +36,7 @@
 	--line-height-big: 1.8;
 
 	--valid-color: var(--color-green);
-	--error-color: var(--color-red)
+	--error-color: var(--color-red);
   
 	/** SECTION **/
 	--section-padding: 5rem 0;
@@ -98,7 +98,7 @@
 	  color: var(--color-white);
 	  background: var(--color-primary);
   }
-  .button-primary :hover {
+  .button-primary:hover {
 	  color: var(--color-primary);
 	  background: var(--color-white);
   }
