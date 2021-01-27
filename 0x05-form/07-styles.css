@@ -801,7 +801,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
 	  position: relative;
 
   }
-  .search-button {
+  .form-search .search-button {
 	  display: inline-block;
 	  background: transparent;
 	  border: 0;
