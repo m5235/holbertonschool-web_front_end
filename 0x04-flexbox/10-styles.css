@@ -384,6 +384,12 @@
     color: var(--color-white);
     text-transform: uppercase;
   }
+  .hero-homepage {
+    background-position: 75% 0;
+    background-repeat: no-repeat;
+    background-size: 90rem auto;
+    background-color: #010101;
+  }
 
   /* Section Latest news =============================*/
 
