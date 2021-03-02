@@ -445,7 +445,9 @@
         width: 100%;
         height: auto;
       }
-
+      .post-content p:first-child {
+        font-size: var(--font-size-x-large);
+      }
   /* Section Latest news =============================*/
 
   .section-blog .row {
