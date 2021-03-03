@@ -184,7 +184,7 @@
       ============================= */
   
   .container {
-    max-width: 960px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -369,10 +369,8 @@
   
   .hero-homepage {
     background-image: url(images/banner-home.jpg);
-    background-position: 75% 0;
-    background-repeat: no-repeat;
-	background-size: 90rem auto;
     background-position: 65% 8rem;
+    background-repeat: no-repeat;
     background-size: 90rem auto;
   }
   
