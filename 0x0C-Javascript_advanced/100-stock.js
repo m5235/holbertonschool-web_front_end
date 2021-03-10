@@ -23,3 +23,4 @@ let stock = {
   }
   let input = prompt("Please enter the item you would like to purchase (Macbook, iPhone)", "");
   processOrder(input, processPayment, processError);
+  
